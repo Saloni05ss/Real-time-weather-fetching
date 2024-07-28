@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather details</title>
+    <link rel="icon" href="https://s.hdnux.com/photos/47/31/53/10328782/37/920x920.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="https://s.hdnux.com/photos/47/31/53/10328782/37/920x920.jpg" alt="image" width="200px"
+                height="200px">
+        </div>
+        <div class="loader">
+            <span style="--i:0"></span>
+            <span style="--i:1"></span>
+            <span style="--i:2"></span>
+            <span style="--i:3"></span>
+            <span style="--i:4"></span>
+            <span style="--i:5"></span>
+            <span style="--i:6"></span>
+            <span style="--i:7"></span>
+            <span style="--i:8"></span>
+            <span style="--i:9"></span>
+            <span style="--i:10"></span>
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:13"></span>
+            <span style="--i:14"></span>
+            <span style="--i:15"></span>
+            <span style="--i:16"></span>
+            <span style="--i:17"></span>
+            <span style="--i:18"></span>
+            <span style="--i:19"></span>
+            <span style="--i:20"></span>
+        </div>
+        <div class="page1">
+            <h1>Please enter a valid city name</h1>
+
+            <div class="input">
+                <h4></h4>
+                <input type="text" placeholder="Enter city name" required spellcheck="false">
+                <p>or</p>
+                <button class="location">Get device location</button>
+                <br>
+            </div>
+        </div>
+        <div class="page2">
+            <div class="time">
+                <div class="time24">_____</div>
+                <div class="time12">_____</div>
+                <button class="timebt">12hr</button>
+                <button class="timebtre">24hr</button>
+            </div>
+            <div class="date">____</div>
+            <div class="day">_____</div>
+            <img src="" alt="image" height="100px" width="100px" class="wimg">
+            <div class="place">________</div>
+            <div class="degree">________</div>
+            <div class="tc">
+                <button class="c">in °C</button>
+                <button class="k">in K</button>
+                <button class="fa">in F</button>
+            </div>
+
+            <div class="w_details">________</div>
+            <div class="row">
+                <div class="left">
+                    <div class="p">
+                        <img src="pressure-removebg-preview.png" alt="" width="15px" height="15px">
+                        Pressure:<span class="pressure">________</span>
+                    </div>
+                    <div class="h">
+                        <img src="humidity-removebg-preview.png" alt="" width="15px" height="15px">
+                        Humidity:<span class="Humidity">________</span>
+                    </div>
+                    <div class="w">
+                        <img src="ws-removebg-preview.png" alt="" width="15px" height="15px">
+                        Wind speed:<span class="Wind_speed">________</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="f">
+                        <img src="feel-removebg-preview.png" alt="" width="15px" height="15px">
+                        Feels like:<span class="Feels_like">_________</span>
+                    </div>
+                    <div class="sr">
+                        <img src="sr-removebg-preview.png" alt="" width="15px" height="15px">
+                        Sunrise:<span class="Sunrise">_________</span>
+                    </div>
+                    <div class="ss">
+                        <img src="ss-removebg-preview.png" alt="" width="15px" height="15px">
+                        Sunset:<span class="Sunset">_________</span>
+                    </div>
+                </div>
+
+
+            </div>
+            <br><br>
+            <div class="bt">
+                <button class="back">Go back</button>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
